@@ -1,0 +1,200 @@
+
+/* nav baar */
+#header1{
+	background-color:rgb(61, 64, 67);
+
+}
+#nav-icon{
+
+	color: white;	
+	cursor: pointer;
+	display: none;
+	font-size: 30px;
+}
+
+#logo{
+	background-color: red;
+	display: inline-block;
+	width: 45px;
+}
+h3{
+	font-size: 30px;
+	color: white;
+}
+
+#change{
+	 padding: 0px;
+     margin: 0px;
+     float: right;
+}
+
+ul li{
+	
+	display: inline-block;
+}
+
+.nav-link{font-size: 20px;
+	color: white;
+	transition: 0.3s;
+}
+
+.nav-link:hover {
+	color: white;
+	background-color: red;
+}
+
+
+@media screen and (max-width:990px){
+
+	ul li{
+           display:block;
+
+	}
+	#change{
+		float: left;
+	}
+	#nav-icon{
+		display: block;
+	}
+}
+
+
+
+/* images change */
+
+#banner{
+	background-image: url(evgeny-tchebotarev-aiwuLjLPFnU-unsplash.jpg);
+	height: 600px;
+	background-size: cover;
+	animation-name: cars;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes cars{
+	0%{
+		background-image: url(alex-suprun-A53o1drQS2k-unsplash.jpg);
+		background-size: 100% 100%;
+
+	}
+	20%{
+		background-image: url(gabriel-gurrola-u6BPMXgURuI-unsplash.jpg);
+		background-size: 100% 100%;
+	}
+	40%{
+		background-image: url(olav-tvedt-yq-efMJMuPg-unsplash.jpg);
+		background-size: 100% 100%;
+	}
+	80%{
+		background-image: url(jasper-geys-NyRe1Mj1pm4-unsplash.jpg);
+		background-size: 100% 100%;
+	}
+    100%{
+    	background-image: url(serge-kutuzov-nm_UwlzQe_Q-unsplash.jpg);
+    	background-size: 100% 100%;
+
+    }
+}
+
+
+#my-Banner{
+	margin: 100px 50px;
+	background-color: rgb(56, 57, 58);
+	border-radius: 100px 0px 100px 0px;
+	box-shadow: 10px 20px 30px black;
+}
+
+#my-Banner img{
+	height: 200px;
+	border-radius: 150px;
+	border: 5px solid orange;
+    margin: 20px 50px;
+}
+#content{
+padding-top: 20px;
+text-align: justify;
+color: white;
+word-spacing: 2px;
+}
+
+#my-card{
+	margin: 100px 50px;
+	
+
+}
+#my-card h5{
+	text-align: center;	
+}
+#my-card p{
+	text-align: justify;
+	
+}
+.animate{
+	padding: 50px 20px;
+}
+.range1{
+	width:350px;
+	height:20px;
+	background-color: yellow;
+   animation-name: ani1;
+   animation-iteration-count: infinite;
+   animation-duration: 6s;
+   animation-direction: alternate;
+
+}
+.range2{
+	width:350px;
+	height:20px;
+	background-color: red;
+	   animation-name: ani2;
+   animation-iteration-count: infinite;
+   animation-duration: 6s;
+   animation-direction: alternate;
+}
+.range3{
+	width:350px;
+	height:20px;
+	background-color: blue;
+	   animation-name: ani3;
+   animation-iteration-count: infinite;
+   animation-duration: 6s;
+   animation-direction: alternate;
+}
+.range4{
+	width:350px;
+	height:20px;
+	background-color: purple;
+	   animation-name: ani4;
+   animation-iteration-count: infinite;
+   animation-duration: 6s;
+   animation-direction: alternate;
+}
+@keyframes ani1{
+	0%{ border-radius: 50px;
+		width: 0px;
+	 }
+	 100%{border-radius: 50px;
+	 	width: 250px;}
+}
+@keyframes ani2{
+	0%{ border-radius: 50px;
+		width: 0px;
+	 }
+	 100%{border-radius: 50px;
+	 	width: 250px;}
+}
+@keyframes ani3{
+	0%{ border-radius: 50px;
+		width: 0px;
+	 }
+	 100%{border-radius: 50px;
+	 	width: 250px;}
+}
+@keyframes ani4{
+	0%{ border-radius: 50px;
+		width: 0px;
+	 }
+	 100%{border-radius: 50px;
+	 	width: 250px;}
+}
+

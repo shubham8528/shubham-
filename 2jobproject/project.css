@@ -1,0 +1,373 @@
+
+
+#header1{
+	background-color:rgb(61, 64, 67);
+
+}
+#nav-icon{
+
+	color: white;	
+	cursor: pointer;
+	display: none;
+	font-size: 30px;
+}
+
+#logo{
+	background-color: red;
+	display: inline-block;
+	width: 45px;
+}
+h3{
+	font-size: 30px;
+	color: white;
+}
+
+#change{
+	 padding: 0px;
+     margin: 0px;
+     float: right;
+}
+
+ul li{
+	
+	display: inline-block;
+}
+
+.nav-link{font-size: 20px;
+	color: white;
+	transition: 0.3s;
+}
+
+.nav-link:hover {
+	color: white;
+	background-color: red;
+}
+
+
+@media screen and (max-width:990px){
+
+	ul li{
+           display:block;
+
+	}
+	#change{
+		float: left;
+	}
+	#nav-icon{
+		display: block;
+	}
+	
+	#logo2{
+		text-align: center;
+	}
+
+}
+
+
+#card-bodys{
+	box-shadow: 20px 20px 40px black;
+margin: 70px 0px;
+
+}
+#header2{
+	background:linear-gradient(to top,rgb(82, 97, 92) ,rgba(0,0,0,0.2)50%), url(serge-kutuzov-nm_UwlzQe_Q-unsplash.jpg);
+    background-size: 100% 100%;
+	height: 600px;
+}
+#banner{padding-left: 200px;
+	padding-top: 10px;
+color: orange;
+
+	
+}
+
+#banner-btn{
+	border:2px solid white;
+	padding: 10px 30px;
+	border-radius: 30px;
+
+}
+.temp img{
+	border: 5px solid red;
+}
+.header3{
+	background: linear-gradient(to bottom,rgba(0,0,0,0.6),rgb(82, 97, 92,0.5)), url(evgeny-tchebotarev-aiwuLjLPFnU-unsplash.jpg);
+	background-size: cover;
+	height: 400px;
+	margin: 20px 0px;
+	animation-name: cars;
+	animation-duration:15s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes cars{
+	0%{background-image: url(evgeny-tchebotarev-aiwuLjLPFnU-unsplash.jpg); background-size: 100% 100%;}
+	50%{background-image: url(peter-broomfield-m3m-lnR90uM-unsplash.jpg); background-size: 100% 100%;}
+	75%{background-image: url(gabriel-gurrola-u6BPMXgURuI-unsplash.jpg); background-size: 100% 100%;}
+100%{background-image: url(alex-suprun-A53o1drQS2k-unsplash.jpg); background-size: 100% 100%;}
+	
+
+}
+.banner2{
+	padding: 30px 30px;
+	color: white;
+}
+
+.brand {
+      
+	height: 100px;
+}
+#shu{
+	border-right: 1px solid black;
+	text-align: center;
+	
+}
+@media screen and (max-width:992px){
+	#shu{  
+	border-right: none;}
+}
+#shuu{
+	text-align: center;
+
+}
+#heading{
+text-align: center;
+padding-bottom: 50px;
+
+}
+#heading:after{
+	border-radius: 500px;
+	display: block;
+	content: "";
+	background-color:rgb(38, 38, 38);
+	height: 5px;
+	width: 50px;
+	margin: auto;
+}
+
+
+#futter{
+	margin-top: 100px;
+	background-color:rgb(61, 64, 67);
+	color: black
+}
+#futter-text{
+	color: black;
+	font-size: 20px;
+} 
+.shu{
+	height: 70px;
+	width: 70px;
+	padding: 10px;
+    
+
+	
+}
+#temp-shu{
+	
+	background-color: rgba(27,31,34,0.85);
+	border-radius: 100px 0px 0px 0px;
+	box-shadow: 20px 20px 40px black;
+
+}
+#image{
+
+padding: 20px 150px;
+}
+#image img{border: 5px solid orange;
+	border-radius: 165px;
+	height: 200px;
+	
+}
+@media screen and ( max-width: 768px){
+	#image{padding: 0px 100px;
+
+}
+#image img{height: 150px;}
+}
+
+#temp{padding-top: 32px;
+	letter-spacing: 10px;
+	color: orange;
+	
+}
+@media screen and (max-width: 992px){
+	#temp{padding-top: 0px;}
+}
+.meter{
+	background-color: orange;
+	width: 250px;
+	height: 20px;
+	
+	animation-name: sample;
+	animation-iteration-count:infinite;
+animation-duration: 6s;
+animation-direction: alternate;
+
+}
+.meter1{
+	background-color: red;
+	width: 370px;
+	height: 20px;
+	
+	animation-name: sample1;
+	animation-iteration-count:infinite;
+animation-duration: 6s;
+animation-direction: alternate;
+
+}
+.meter2{
+	background-color: green;
+	width: 300px;
+	height: 20px;
+	
+	animation-name: sample2;
+	animation-iteration-count: infinite;
+animation-duration: 6s;
+animation-direction: alternate;
+
+}
+.meter3{
+	background-color: blue;
+	width: 150px;
+	height: 20px;
+	
+	animation-name: sample3;
+	animation-iteration-count: infinite;
+animation-duration: 6s;
+animation-direction: alternate;
+
+}
+
+@keyframes sample{
+	0%{border-radius: 30px;
+		width: 50px;
+	}
+
+100%{
+	width: 250px;
+	border-radius: 30px;
+}
+}
+@keyframes sample1{
+	0%{border-radius: 30px;
+		width: 50px;
+	}
+
+100%{
+	width: 370px;
+	border-radius: 30px;
+}
+}
+@keyframes sample2{
+	0%{border-radius: 30px;
+		width: 50px;
+	}
+
+100%{
+	width: 300px;
+	border-radius: 30px;
+}
+}
+@keyframes sample3{
+	0%{border-radius: 30px;
+		width: 50px;
+	}
+
+100%{
+	width: 150px;
+	border-radius: 30px;
+}
+}
+
+#percentage{color: white;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+#graph0{
+	background-color:rgb(61, 64, 67);
+	border-radius:0px 0px 100px 0px;
+	box-shadow: 20px 20px 40px black;
+}
+#graph1{
+	height: 260px;
+	
+	
+	
+}
+#graph2{
+	height: 260px;
+	border-radius: 0px 0px 100px 0px;
+	
+	
+}
+form{
+	padding: 0px 90px;
+
+}
+
+
+
+/*-------- sign in -------*/
+
+
+
+
+#sign-body{
+	background-color: rgb(101, 126, 141);
+}
+
+#sign-form1{
+	margin-top: 100px;
+}
+
+#sign-form2{
+
+	background-color: white;
+	box-shadow : 10px 10px 40px black;
+	
+}
+#sign-name{
+	box-shadow : 0px 0px 0px 40px black;
+	
+	background-color:black;
+}
+
+#sign-name h3{
+	padding:130px 20px ;
+}
+.sign-img{
+	margin-top: 10px;
+	text-align: center;
+}
+.sign-img img{ 
+
+	height: 30px;
+}
+
+.placeicon{
+
+	font-family: fontawesome;
+
+}
+
+
+
+/*-------About us_________*/
+
+
+
+.about-img{
+	background: linear-gradient(to bottom,rgba(0,0,0,0.6),rgb(82, 97, 92,0.3)) ,url(olav-tvedt-yq-efMJMuPg-unsplash.jpg);
+	height: 550px;
+	background-size: 100% 100%;
+	
+
+	
+}
+.bottom-text{
+	color: white;
+}
+
+
